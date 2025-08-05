@@ -36,3 +36,17 @@ The PM modulator was implemented using a DDS compiler with the phase offset conf
 <img width="903" height="296" alt="image" src="https://github.com/user-attachments/assets/bbc23299-a46e-4ddc-9215-de5b3a49de70" />
 
 Note: To account for the multiplier’s inherent low pass characteristic in an actual LPLL, a FIR filter is used.
+
+
+## Results
+
+5 MHz Single tone message
+
+<img width="1942" height="563" alt="image" src="https://github.com/user-attachments/assets/188ab55c-ce33-49bd-b2de-22ca4f0114a1" />
+
+AM Modulated message (5 MHz AM carrier and 1 MHz AM message)
+
+<img width="1836" height="531" alt="image" src="https://github.com/user-attachments/assets/083f441e-9126-4d3c-93bd-0c2fe0137d09" />
+
+Note: The oscilloscope output shows the output of the demodulator.Order of signals displayed on the Integrated Logic Analyzer (ILA) 
+from top to bottom are as follows: Message signal, Modulator output, Demodulator input (looped back externally) and Demodulator output.
